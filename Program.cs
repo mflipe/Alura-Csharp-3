@@ -16,7 +16,7 @@ namespace ByteBank
 
             UsarSistema();
 
-            Console.ReadLine(); 
+            Console.ReadLine();
         }
 
         public static void UsarSistema()
@@ -36,11 +36,11 @@ namespace ByteBank
 
             sistemaInterno.Logar(parceiro, "123456");
 
-            sistemaInterno.Logar(roberta, "123"); 
+            sistemaInterno.Logar(roberta, "123");
             sistemaInterno.Logar(camila, "abc");
         }
 
-        public static void CalcularBonificacao() 
+        public static void CalcularBonificacao()
         {
             GerenciadorBonificacao gerenciadorBonificacao = new GerenciadorBonificacao();
 
@@ -56,8 +56,8 @@ namespace ByteBank
             Funcionario camila = new GerenteDeConta("326.985.628-89");
             camila.Nome = "Camila";
 
-            Desenvolvedor guilherme = new Desenvolvedor("456.175.468-20"); 
-            guilherme.Nome = "Guilherme"; 
+            Desenvolvedor guilherme = new Desenvolvedor("456.175.468-20");
+            guilherme.Nome = "Guilherme";
 
             gerenciadorBonificacao.Registrar(guilherme);
             gerenciadorBonificacao.Registrar(pedro);
